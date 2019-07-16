@@ -1,0 +1,3 @@
+PARK Jooho|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\stari_kreso.jpg
+SON Heungmin|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\ryu.jpg
+Dusan TADIC|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\ryu.jpg

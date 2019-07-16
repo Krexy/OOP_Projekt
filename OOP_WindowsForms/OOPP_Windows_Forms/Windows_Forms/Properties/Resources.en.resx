@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="player" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="player2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dplayer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dplayer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dplayer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dplayer2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dplayer3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dplayer3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3dplayer4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3dplayer4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lizard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Broj" xml:space="preserve">
+    <value>Num</value>
+  </data>
+  <data name="Dolaznost" xml:space="preserve">
+    <value>Attendance</value>
+  </data>
+  <data name="DomaciTim" xml:space="preserve">
+    <value>Home Team</value>
+  </data>
+  <data name="DovuciIgrace" xml:space="preserve">
+    <value>Drag Favorite Players</value>
+  </data>
+  <data name="Drzave" xml:space="preserve">
+    <value>Countrys</value>
+  </data>
+  <data name="Igraci" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="Ime" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ImeIgraca" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="Kapetan" xml:space="preserve">
+    <value>Capetan</value>
+  </data>
+  <data name="Lokacija" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Nastupi" xml:space="preserve">
+    <value>Apperance</value>
+  </data>
+  <data name="Negativno" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Pozicija" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Pozitivno" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Printanje" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Rangiranje" xml:space="preserve">
+    <value>Ranking</value>
+  </data>
+  <data name="Slika" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="SlikaIgraca" xml:space="preserve">
+    <value>Player Picture</value>
+  </data>
+  <data name="StraniTim" xml:space="preserve">
+    <value>Away Team</value>
+  </data>
+  <data name="Utakmice" xml:space="preserve">
+    <value>Matches</value>
+  </data>
+  <data name="ZabijeniGolovi" xml:space="preserve">
+    <value>Goals Scored</value>
+  </data>
+  <data name="ZutiKartoni" xml:space="preserve">
+    <value>Yellow Cards</value>
+  </data>
+  <data name="Engleski" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Hrvatski" xml:space="preserve">
+    <value>Croatian</value>
+  </data>
+  <data name="OdaberiJezik" xml:space="preserve">
+    <value>Choose Your Language</value>
+  </data>
+  <data name="PromjenePostavki" xml:space="preserve">
+    <value>Changes to the settings will be applied after restarting the application</value>
+  </data>
+  <data name="PromjenePostavkiNaslov" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="SpremanjeJezika1" xml:space="preserve">
+    <value>Are you sure you want to choose </value>
+  </data>
+  <data name="SpremanjeJezika2" xml:space="preserve">
+    <value> language?</value>
+  </data>
+  <data name="SpremanjeJezikaNaslov" xml:space="preserve">
+    <value>Choose Language Confirmation</value>
+  </data>
+  <data name="Zatvaranje" xml:space="preserve">
+    <value>Do you want to Exit?</value>
+  </data>
+  <data name="ZatvaranjeNaslov" xml:space="preserve">
+    <value>Close Confirmation</value>
+  </data>
+</root>

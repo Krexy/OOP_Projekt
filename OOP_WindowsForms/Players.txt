@@ -1,0 +1,6 @@
+JO Hyeonwoo|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\lizard.jpg
+KIM Shinwook|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\stari_kreso.jpg
+Lionel MESSI|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\stari_kreso.jpg
+Vladimir STOJKOVIC|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\stari_kreso.jpg
+Luka MODRIC|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\stari_kreso.jpg
+Robin OLSEN|C:\Users\Kresica\Desktop\OOP_WindowsForms\Slike\stari_kreso.jpg
